@@ -1,6 +1,6 @@
 # auger-overlap-avoider
 
-Software to determine the kinetic energies that you can use to measure your XPS data, without the risk of overlapping with Auger peaks.<br> 
+Welcome to Auger Overlap Avoider! This software helps you determine the kinetic energies suitable for measuring your XPS data, while avoiding the risk of overlapping with Auger peaks. <br> 
 
 ## How to run 
 
@@ -20,4 +20,4 @@ Software to determine the kinetic energies that you can use to measure your XPS 
 The different scripts to import, export, and analyze data were written by:<br>
 Lucas de Souza Caldas <br>
 ldesouzacaldas@gmail.com<br>
-By using these scripts, the author should be included in the Acknowledgments section of your upcoming paper. In the case of a more direct contribution, the script author should be included as an author.
+When using these scripts, please include the author in the Acknowledgments section of your upcoming paper. If the script author has made a more direct contribution, consider including them as a co-author.
