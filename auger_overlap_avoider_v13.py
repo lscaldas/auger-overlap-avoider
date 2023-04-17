@@ -91,7 +91,7 @@ def resize_root():
 
 root.after(100, resize_root)
 
-root.title("Auger Overlap Avoider v.12 by L.S.Caldas")
+root.title("Auger Overlap Avoider v.13 by L.S.Caldas")
 
 # Create a main frame to hold all the widgets
 main_frame = ttk.Frame(root, padding="20")
@@ -109,26 +109,26 @@ elements_entry.insert(0, "C,O")
 elements_entry.grid(row=1, column=0, columnspan=2, padx=5, pady=5, sticky=tk.W)
 
 # Create a label with the description of the code
-label_text = "Auger Overlap Avoider v.12\n\n"              "Created by Lucas de Souza Caldas.\n\n"              "Database by W.A. Coghlan, and R.E. Clausing.\n\n"              "Each time the OK button is pressed, an excel .csv\n  file is created(or replaced) with the auger_peaks.\n\n"              "Press OK to show the allowed Kinetic energy ranges,\n  and the Auger peaks inside the K.E. boundaries selected.\n"
+label_text = "Auger Overlap Avoider v.13\n\n"              "Created by Lucas de Souza Caldas.\n\n"              "Database by W.A. Coghlan, and R.E. Clausing.\n\n"              "Each time the OK button is pressed, an excel .csv\n  file is created(or replaced) with the auger_peaks.\n\n"              "Press OK to show the allowed Kinetic energy ranges,\n  and the Auger peaks inside the K.E. boundaries selected.\n"
 label = ttk.Label(main_frame, text=label_text, justify=tk.RIGHT, padding="10")
 label.grid(row=0, column=1, padx=20, pady=20, sticky=tk.E+tk.N)
 
 # Create label and entry for limit
-limit_label = ttk.Label(input_frame, text="Distance from Auger peaks (default: 10 eV):")
+limit_label = ttk.Label(input_frame, text="Distance from any Auger peaks (default: 10 eV):")
 limit_label.grid(row=2, column=0, padx=5, pady=5, sticky=tk.W)
 limit_entry = ttk.Entry(input_frame)
 limit_entry.insert(0, "10")
 limit_entry.grid(row=2, column=1, padx=5, pady=5, sticky=tk.W)
 
 # Create label and entry for lower_ke
-lower_ke_label = ttk.Label(input_frame, text="Lower Kinetic energy (default: 50 eV):")
+lower_ke_label = ttk.Label(input_frame, text="Lower kinetic energy (default: 50 eV):")
 lower_ke_label.grid(row=3, column=0, padx=5, pady=5, sticky=tk.W)
 lower_ke_entry = ttk.Entry(input_frame)
 lower_ke_entry.insert(0, "50")
 lower_ke_entry.grid(row=3, column=1, padx=5, pady=5, sticky=tk.W)
 
 # Create label and entry for upper_ke
-upper_ke_label = ttk.Label(input_frame, text="Upper Kinetic energy (default: 1200 eV):")
+upper_ke_label = ttk.Label(input_frame, text="Upper kinetic energy (default: 1200 eV):")
 upper_ke_label.grid(row=4, column=0, padx=5, pady=5, sticky=tk.W)
 upper_ke_entry = ttk.Entry(input_frame)
 upper_ke_entry.insert(0, "1200")
